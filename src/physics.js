@@ -1,3 +1,5 @@
+import * as d3 from "d3";
+
 function run() {
   const width = window.innerWidth;
   const height = window.innerHeight;
@@ -107,6 +109,6 @@ function run() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  run();
-});
+export {
+    run
+}
